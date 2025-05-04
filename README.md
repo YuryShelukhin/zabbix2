@@ -135,15 +135,16 @@
 <img src = "img/5-1.png" width = 60%>
 <img src = "img/5-2.png" width = 60%>  
 
-2. Привяжем тригеры  к хостам.   
+2. Привяжем триггеры  к хостам.   
 <img src = "img/5-3.png" width = 60%>
 
 3. Выключим Zabbix Agent на одном хосте.
-<img src = "img/3-4.png" width = 60%>  
+<img src = "img/5-4.png" width = 60%>  
 
-44444444444
-<img src = "img/task_2-3.png" width = 60%> жду хостами    
-<img src = "img/task_4.png" width = 60%>  
+   Проверим срабатывание триггера на карте
+<img src = "img/task_5.png" width = 60%>    
+
+---
 
 ### Задание 6* со звёздочкой
 Создайте UserParameter на bash и прикрепите его к созданному вами ранее шаблону. Он должен вызывать скрипт, который:
