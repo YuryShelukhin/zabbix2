@@ -30,15 +30,17 @@
 
  ---
 
-## Решение 1
+
 
 ### Для решения заданий использованы 3-и виртуальные машины в Яндекс-облаке:
-  1. ВМ  "monitor1" с установленными Zabbix-сервером.      
-  2. ВМ  "shelukhinyu-1" с установленным Zabbix-агентом.    
-  3. ВМ  "shelukhinyu-2" с установленным Zabbix-агентом.    
-<img src = "img/1-0.png" width = 60%>   
-   
-1-4.  Создадим  в веб-интерфейсе Zabbix Servera в разделе Templates новый шаблон  
+1. ВМ  "server-agent" с установленными Zabbix-сервером.      
+2. ВМ  "shelukhinyu-1" с установленным Zabbix-агентом.    
+3. ВМ  "shelukhinyu-2" с установленным Zabbix-агентом.    
+<img src = "img/1-0.png" width = 60%> 
+
+## Решение 1
+
+1-4.  Создадим  в веб-интерфейсе Zabbix Servera в разделе Templates новый шаблон c 2-мя item.   
 <img src = "img/1-1.png" width = 60%> 
 <img src = "img/1-2.png" width = 60%>
 <img src = "img/1-3.png" width = 60%>
@@ -86,9 +88,10 @@
 
 1-3.  Привяжем шаблоны к хостам.      
 <img src = "img/3-1.png" width = 60%>
-<img src = "img/3-2.png" width = 60%>
+<img src = "img/3-2.png" width = 60%>  
 4. Проверим Latest Data  
-<img src = "img/2-1.png" width = 60%>
+<img src = "img/3-3.png" width = 60%>
+<img src = "img/3-4.png" width = 60%>  
 <img src = "img/task_2-3.png" width = 60%>  
 
  ---
